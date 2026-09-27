@@ -1,0 +1,14 @@
+[
+{"id":"star","q":"Güneş hangi tür gök cismidir?","options":["Gezegen","Yıldız","Doğal uydu","Kuyruklu yıldız"],"answer":1,"why":"Güneş kendi ışığını ve ısısını üreten bir yıldızdır."},
+{"id":"hot","q":"Güneş sisteminin en sıcak gezegeni hangisidir?","options":["Merkür","Mars","Venüs","Dünya"],"answer":2,"why":"Venüs’ün kalın atmosferi ısıyı tutar. Bu yüzden Merkür’den de sıcaktır."},
+{"id":"big","q":"En büyük gezegen hangisidir?","options":["Satürn","Jüpiter","Neptün","Dünya"],"answer":1,"why":"Jüpiter, Güneş sisteminin en büyük gezegenidir."},
+{"id":"moonlight","q":"Ay’ı neden aydınlık görürüz?","options":["Kendi ışığını üretir","Dünya onu bir lambayla aydınlatır","Güneş ışığını yansıtır","Yüzeyi yanar"],"answer":2,"why":"Ay bir ışık kaynağı değildir. Güneş’ten gelen ışığı yansıtır."},
+{"id":"phase","q":"Ay’ın bize dönük yüzünü bütünüyle aydınlık gördüğümüz evre hangisidir?","options":["Yeni ay","İlk dördün","Son dördün","Dolunay"],"answer":3,"why":"Dolunayda bize dönük yüzün aydınlık kısmını bütünüyle görürüz."},
+{"id":"crust","q":"Dünya’nın üzerinde yaşadığımız katmanı hangisidir?","options":["Yer kabuğu","Manto","Dış çekirdek","İç çekirdek"],"answer":0,"why":"Yer kabuğu, Dünya’nın ince ve katı dış katmanıdır."},
+{"id":"core","q":"Güneş’in enerjisi en içteki hangi katmanda üretilir?","options":["Korona","Fotosfer","Çekirdek","Kromosfer"],"answer":2,"why":"Güneş’in çekirdeğinde hidrojenin helyuma dönüşmesiyle enerji açığa çıkar."},
+{"id":"marsmoons","q":"Phobos ve Deimos hangi gezegenin uydularıdır?","options":["Dünya","Venüs","Jüpiter","Mars"],"answer":3,"why":"Mars’ın iki doğal uydusu Phobos ve Deimos’tur."},
+{"id":"rings","q":"Satürn’ün halkaları çoğunlukla nelerden oluşur?","options":["Tek parça metalden","Buz ve kaya parçalarından","Bulutlardan","Bitkilerden"],"answer":1,"why":"Halkalar tek bir katı parça değildir; çok sayıda buz ve kaya parçası içerir."},
+{"id":"day","q":"Gece ve gündüzü hangi hareket oluşturur?","options":["Ay’ın evreleri","Dünya’nın kendi ekseninde dönmesi","Güneş’in sönmesi","Dünya’nın küçülmesi"],"answer":1,"why":"Dünya dönerken bir tarafı Güneş’e dönük, diğer tarafı karanlıkta kalır."},
+{"id":"mantle","q":"Manto için hangi ifade doğrudur?","options":["Tamamı sıvı sudur","Dünya’nın en ince katmanıdır","Büyük bölümü katıdır, çok uzun zamanda yavaşça akabilir","Güneş’in dış katmanıdır"],"answer":2,"why":"Manto çoğunlukla katı kayadan oluşur; uzun zaman ölçeklerinde yavaşça hareket eder."},
+{"id":"shadow","q":"Ay’ın evrelerinin temel nedeni nedir?","options":["Dünya’nın gölgesinin her gece Ay’ı örtmesi","Ay’ın biçim değiştirmesi","Güneş’in parlaklığının değişmesi","Ay dolanırken aydınlık yüzünün farklı bölümlerini görmemiz"],"answer":3,"why":"Evreler, Güneş’in aydınlattığı yarının Dünya’dan farklı açılarda görülmesiyle oluşur. Dünya’nın gölgesi Ay tutulmasıyla ilgilidir."}
+]

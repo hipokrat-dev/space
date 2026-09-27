@@ -1,0 +1,52 @@
+{
+  "source": "https://science.nasa.gov/solar-system/planets/",
+  "usageGuidelines": "https://www.nasa.gov/nasa-brand-center/",
+  "note": "Verified direct image URLs via NASA page image links on 2026-09-27. Mostly 16:9 JPGs with dark backgrounds; use contain. Preserve credits. Jupiter image is color enhanced, explicitly CC-BY on its NASA detail page.",
+  "images": {
+    "mercury": {
+      "url": "https://science.nasa.gov/wp-content/uploads/2024/03/pia15162-mercury-basins-messenger-16x9-1.jpg?w=1024",
+      "credit": "NASA/Johns Hopkins University Applied Physics Laboratory/Carnegie Institution of Washington"
+    },
+    "venus": {
+      "url": "https://science.nasa.gov/wp-content/uploads/2024/03/venus-mariner-10-pia23791-fig2-16x9-1.jpg?w=1024",
+      "credit": "NASA/JPL-Caltech",
+      "source": "https://science.nasa.gov/image-detail/venus-mariner-10-pia23791-fig2-2/"
+    },
+    "earth": {
+      "url": "https://science.nasa.gov/wp-content/uploads/2024/03/blue-marble-apollo-17-16x9-1.jpg?w=1024",
+      "credit": "NASA, Apollo 17"
+    },
+    "mars": {
+      "url": "https://science.nasa.gov/wp-content/uploads/2024/03/mars-full-globe-16x9-1.jpg?w=1024",
+      "credit": "NASA"
+    },
+    "jupiter": {
+      "url": "https://science.nasa.gov/wp-content/uploads/2024/03/jupiter-marble-pia22946-16x9-1.jpg?w=1024",
+      "credit": "Enhanced image by Kevin M. Gill (CC-BY), based on images courtesy NASA/JPL-Caltech/SwRI/MSSS",
+      "source": "https://science.nasa.gov/image-detail/jupiter-marble-pia22946-1920x640/"
+    },
+    "saturn": {
+      "url": "https://science.nasa.gov/wp-content/uploads/2023/05/saturn-farewell-pia21345-sse-banner-1920x640-1.jpg?w=1024",
+      "credit": "NASA/JPL-Caltech/Space Science Institute"
+    },
+    "uranus": {
+      "url": "https://science.nasa.gov/wp-content/uploads/2024/03/uranus-pia18182-16x9-1.jpg?w=1024",
+      "credit": "NASA/JPL-Caltech"
+    },
+    "neptune": {
+      "url": "https://science.nasa.gov/wp-content/uploads/2024/03/pia01492-neptune-full-disk-16x9-1.jpg?w=1024",
+      "credit": "NASA/JPL"
+    },
+    "sun": {
+      "url": "https://science.nasa.gov/wp-content/uploads/2023/05/soho-prominences-1920x640-1.jpg?w=1536",
+      "source": "https://science.nasa.gov/sun/",
+      "credit": "ESA/NASA SOHO"
+    },
+    "moon": {
+      "url": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/earths-moon/outreach-materials/NASA-LRO-Moon-mosaic.png?crop=faces%2Cfocalpoint&fit=clip&h=1041&w=1041",
+      "source": "https://science.nasa.gov/resource/moon-mosaic/",
+      "credit": "NASA Scientific Visualization Studio / Lunar Reconnaissance Orbiter",
+      "note": "Photographic mosaic of 1,231 LRO images."
+    }
+  }
+}

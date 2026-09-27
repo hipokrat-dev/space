@@ -1,0 +1,6 @@
+import test from 'node:test';import assert from 'node:assert/strict';import fs from 'node:fs';import {bodies,layers,phases} from '../assets/data.js';
+const q=JSON.parse(fs.readFileSync(new URL('../assets/questions.json',import.meta.url)));
+test('Solar route contains Sun and eight planets in correct order',()=>assert.deepEqual(bodies.map(b=>b.id),['sun','mercury','venus','earth','mars','jupiter','saturn','uranus','neptune']));
+test('Every body has source, moon teaching content, and a real local image',()=>{for(const b of bodies){assert.ok(b.source.startsWith('https://science.nasa.gov/'));assert.ok(b.satellites.length);const bytes=fs.readFileSync(new URL(`../assets/${b.id}.jpg`,import.meta.url));assert.equal(bytes[0],255);assert.equal(bytes[1],216);assert.ok(bytes.length>10000)}});
+test('Quiz has valid, unique questions and explanations',()=>{assert.equal(q.length,12);assert.equal(new Set(q.map(x=>x.id)).size,q.length);for(const item of q){assert.equal(item.options.length,4);assert.ok(Number.isInteger(item.answer)&&item.answer>=0&&item.answer<4);assert.ok(item.why.length>30)}});
+test('Layer and phase curriculum complete',()=>{assert.equal(layers.sun.length,6);assert.equal(layers.earth.length,4);assert.equal(phases.length,8);assert.equal(phases[0][0],'Yeni ay');assert.equal(phases[4][0],'Dolunay')});
